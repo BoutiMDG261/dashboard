@@ -104,8 +104,8 @@ export class MessageComponent {
         messages: [message],
         time: this.datePipe.transform(new Date(), 'shortTime')!,
         direction: 'right',
-        // userImage: 'assets/images/users/avatar-3.jpg',
-        userImage: 'assets/images/users/avatar-2.jpg',
+        userImage: 'assets/images/users/avatar-3.jpg',
+        // userImage: 'assets/images/users/avatar-2.jpg',
         // userImage: 'assets/images/users/avatar-1.jpg',
       };
 

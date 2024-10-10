@@ -13,8 +13,8 @@ import { SimplebarAngularModule } from 'simplebar-angular'
 })
 export class ChatContactComponent implements OnInit {
   // userName = 'Daniel Madsen';
-  userName = 'James Andrews';
-  // userName = 'Shauna Jones';
+  // userName = 'James Andrews';
+  userName = 'Shauna Jones';
 
   unreadMess = true;
 
@@ -40,7 +40,7 @@ export class ChatContactComponent implements OnInit {
         {
           id: 2,
           direction: 'right',
-          userImage: 'assets/images/users/avatar-2.jpg',
+          userImage: 'assets/images/users/avatar-3.jpg',
           messages: ['Salut,', 'Peut-on vérifier sur n’importe quelle plateforme en utilisant Docker ?'],
           time: '12:35pm',
         },
@@ -58,7 +58,7 @@ export class ChatContactComponent implements OnInit {
         {
           id: 4,
           direction: 'right',
-          userImage: 'assets/images/users/avatar-2.jpg',
+          userImage: 'assets/images/users/avatar-3.jpg',
           messages: [
             "Merci pour ton message David. Je pensais être seul avec ce problème. S'il te plaît, 👍 l'issue pour la soutenir :)",
           ],
@@ -77,7 +77,7 @@ export class ChatContactComponent implements OnInit {
         {
           id: 6,
           direction: 'right',
-          userImage: 'assets/images/users/avatar-2.jpg',
+          userImage: 'assets/images/users/avatar-3.jpg',
           messages: [
             'Bonjour !',
             "Il existe de nombreuses variations de passages du Lorem Ipsum.",
@@ -88,8 +88,8 @@ export class ChatContactComponent implements OnInit {
     },
     {
       name: 'James Andrews',
-      time: '30 min ago',
-      message: 'Amazing Work!! 🔥',
+      time: 'Yesterday',
+      message: 'Génial ! Je t\'enverrai les détails par mail. On se tient au courant !',
       status: 'offline',
       unread_messages: 1,
       image: 'assets/images/users/avatar-2.jpg',
@@ -99,7 +99,7 @@ export class ChatContactComponent implements OnInit {
           direction: 'left',
           userImage: 'assets/images/users/avatar-2.jpg', // Image de James
           messages: [
-            'Salut Andrew, comment ça va ?',
+            'Salut Shauna, comment ça va ?',
             "J'ai vu ton dernier travail, c'était incroyable !",
           ],
           time: 'hier',
@@ -166,7 +166,7 @@ export class ChatContactComponent implements OnInit {
         },
         {
           id: 2,
-          direction: 'right',
+          direction: 'left',
           userImage: 'assets/images/users/avatar-2.jpg',
           messages: ['Hello! Comment ça va ?'],
           time: '10:05am',
@@ -174,7 +174,7 @@ export class ChatContactComponent implements OnInit {
         },
         {
           id: 3,
-          direction: 'left',
+          direction: 'right',
           userImage: 'assets/images/users/avatar-3.jpg',
           messages: ['Salut ! Je vais bien, merci.'],
           time: '10:15am',
@@ -185,57 +185,66 @@ export class ChatContactComponent implements OnInit {
     {
       name: 'Shauna Jones',
       time: 'Yesterday',
-      message: 'Génial ! Je t\'enverrai les détails par mail. On se tient au courant !',
+      message: 'Congratulations!',
       status: 'offline',
       image: 'assets/images/users/avatar-3.jpg',
       dataMessage: [
         {
           id: 1,
           direction: 'right',
-          userImage: 'assets/images/users/avatar-2.jpg', // Image de James
+          userImage: 'assets/images/users/avatar-1.jpg',
           messages: [
-            'Salut Shauna, comment ça va ?',
-            "J'ai vu ton dernier travail, c'était incroyable !",
+            'Bonjour !',
+            "Il existe de nombreuses variations de passages du Lorem Ipsum.",
           ],
           time: 'hier',
         },
         {
           id: 2,
           direction: 'left',
-          userImage: 'assets/images/users/avatar-3.jpg', // Image de l'autre utilisateur
-          messages: [
-            'Salut James ! Ça va super, merci !',
-            "Oui, j'ai travaillé dur sur ce projet. Content que tu l'aimes !",
-          ],
-          time: '12:30pm',
+          userImage: 'assets/images/users/avatar-3.jpg',
+          messages: ['Salut,', 'Peut-on vérifier sur n’importe quelle plateforme en utilisant Docker ?'],
+          time: '12:35pm',
         },
         {
           id: 3,
           direction: 'right',
-          userImage: 'assets/images/users/avatar-2.jpg', // Image de James
+          userImage: 'assets/images/users/avatar-1.jpg',
           messages: [
-            'Tu mérites toutes les félicitations. Continue comme ça !',
-            "D'ailleurs, je voulais te demander si tu serais dispo pour un autre projet.",
+            'Bonne journée !',
+            "La commande a été exécutée avec les privilèges root. J'en suis sûr.",
+            'd’accord',
           ],
-          time: '12:35pm',
+          time: '11:10pm',
         },
         {
           id: 4,
           direction: 'left',
-          userImage: 'assets/images/users/avatar-3.jpg', // Image de l'autre utilisateur
+          userImage: 'assets/images/users/avatar-3.jpg',
           messages: [
-            "Merci beaucoup, c'est gentil ! Je suis toujours prêt pour de nouveaux défis. Parle-moi de ton projet.",
+            "Merci pour ton message David. Je pensais être seul avec ce problème. S'il te plaît, 👍 l'issue pour la soutenir :)",
           ],
-          time: '12:40pm',
+          time: '10:10pm',
         },
         {
           id: 5,
           direction: 'right',
-          userImage: 'assets/images/users/avatar-2.jpg', // Image de James
+          userImage: 'assets/images/users/avatar-1.jpg',
           messages: [
-            "Génial ! Je t'enverrai les détails par mail. On se tient au courant !",
+            'Désolé, je viens juste de revenir !',
+            "On dirait que tu viens du monde Mac OS. Il n'y a pas de dossier /Users/ sur Linux 😄",
           ],
-          time: '12:45pm',
+          time: '11:15am',
+        },
+        {
+          id: 6,
+          direction: 'left',
+          userImage: 'assets/images/users/avatar-3.jpg',
+          messages: [
+            'Bonjour !',
+            "Il existe de nombreuses variations de passages du Lorem Ipsum.",
+          ],
+          time: '9:02am',
         },
       ],
     },
